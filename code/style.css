@@ -16,6 +16,9 @@ header  {
     height: 10vh;
     width: 100%;
     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,4 +48,56 @@ header a   {
     background-color: rgb(40, 95, 296);
     padding: 5px;
     color: white;
+    display: inline;
+    text-decoration: none;
+}
+
+/* jumbotron */
+.jumbotron  {
+    height: 90vh;
+    background-color: rgb(185, 207, 229);
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron_container    {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1  {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.bottom_section_jumbo   {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.jumbo_text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.jumbo_img {
+    width: 60%;
+}
+
+.jumbo_img img  {
+    width: 100%;
+}
+
+.jumbo_text i   {
+    font-size: 40px;
+    margin-top: 50px;
 }
