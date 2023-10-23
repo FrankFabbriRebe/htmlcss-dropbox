@@ -6,6 +6,43 @@
 }
 
 /* general rules */
-body    {
-    font-family: "open sans";
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+
+/* header */
+header  {
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+header ul  {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+}
+
+header a   {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    background-color: rgb(40, 95, 296);
+    padding: 5px;
+    color: white;
 }
