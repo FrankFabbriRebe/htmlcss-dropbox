@@ -467,3 +467,62 @@ h1  {
     display: flex;
     justify-content: space-between;
 }
+
+/* footer */
+.footer {
+    /* height: 40vh; */
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_conteiner   {
+    width: 80%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_top {
+    display: flex;
+    gap: 5%;
+}
+
+.footer_column  {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column h4   {
+    margin-bottom: 10%;
+}
+
+.footer_column a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_bottom  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 5%;
+    /* debug */
+    height: 40px;
+    /* background-color: brown; */
+}
+
+.footer_bottom line {
+    color: white;
+}
+
+.language   {
+    display: flex;
+    margin-top: 1%;
+    gap: 1vw;
+}
