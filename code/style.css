@@ -122,7 +122,7 @@ h1  {
     gap: 30px;
 }
 
-h2  {
+.price_section h2  {
     margin-top: 80px;
     font-size: 50px;
 }
@@ -294,4 +294,41 @@ h2  {
 
 .white_btn a    {
     text-decoration: none;
+}
+
+/* section dropbox business */
+.dropbox_business   {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dropbox_business_container {
+    width: 60%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropbox_business h2  {
+    font-size: 50px;
+}
+
+.dropbox_business_container_row {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.dropbox_business_container_column  {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dropbox_business_container_column img  {
+    width: 100%;
+    height: 200px;
 }
