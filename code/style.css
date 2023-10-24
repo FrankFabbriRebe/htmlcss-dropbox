@@ -254,6 +254,44 @@ h2  {
     margin-bottom: 40px;   
 }
 
-.team_section_container_content_btn .button {
-    display: inline;
+/* section find partner */
+.find_partner   {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.find_partner_container {
+    height: 500px;
+    width: 60%;
+    margin-top: 100px;
+    display: flex;
+
+}
+
+.find_partner_container_left    {
+    width: 60%;
+}
+
+.find_partner_container_left img    {
+    width: 100%;
+    height: 100%;
+}
+
+.find_partner_container_right   {
+    padding: 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.white_btn  {
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.white_btn a    {
+    text-decoration: none;
 }
