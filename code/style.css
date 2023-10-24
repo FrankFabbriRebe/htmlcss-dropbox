@@ -439,3 +439,31 @@ h1  {
     color: black;
 }
 
+/* faq section */
+.faq    {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    height: 80vh;
+}
+
+.faq_conteiner  {
+    width: 60%;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    height: 50vh;
+}
+
+.long_line  {
+    width: 100%; 
+    height: 1px; 
+    background-color: black;
+}
+
+.question  {
+    display: flex;
+    justify-content: space-between;
+}
