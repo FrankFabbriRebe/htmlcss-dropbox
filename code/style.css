@@ -422,3 +422,20 @@ h1  {
     padding: 40px;
     gap: 40px;
 }
+
+/* free test section */
+.free_test  {
+    background-color: rgb(185, 207, 229);
+    width: 100%;
+    display: flex;
+    color: rgb(72, 20, 67);
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10vh;
+    height: 30vh;
+}
+
+.white_btn a    {
+    color: black;
+}
+
