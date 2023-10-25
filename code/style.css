@@ -144,6 +144,12 @@ header a   {
     gap: 1vw;
 }
 
+.options    {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
 .column_price {
     width: calc(100% / 3);
     display: flex;
