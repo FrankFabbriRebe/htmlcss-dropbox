@@ -11,6 +11,10 @@
 body {
     font-family: 'Open Sans', sans-serif;
   }
+
+ h1 {
+    font-size: 8vh;
+ } 
 /* end general rules */
  
 
@@ -90,6 +94,10 @@ header a   {
     display: flex;
     flex-direction: column;
     gap: 2vh;
+}
+
+.jumbo_text .button {
+    width:fit-content;
 }
 
 .jumbo_img {
