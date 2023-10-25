@@ -194,16 +194,6 @@ header a   {
     margin-right: 10px;
 }
    
-/* .option_content {
-    margin: 20px;
-}
-
-.user, .storage, .function   {
-    display: flex;
-    gap: 5px;
-    margin-top: 5px;
-} */
-
 .column_price .button   {
     margin: 20px;
 }
@@ -219,11 +209,6 @@ header a   {
     height: 1px; 
     background-color: grey; 
     margin: 40px 20px;
-    text-align: left;
-    /* margin-top: 40px;
-    margin-bottom: 40px; */
-    /* margin: 40px auto 40px 20px;  */
-    
 }
 
 .column_price h4 {
@@ -232,22 +217,11 @@ header a   {
     text-align: left;
 }
 
-
-
-/* .top_points  {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 10px;
-} */
-
 .top_points_list {
     list-style: none; 
     padding: 20px;  
 }
-  
-  
+    
 .top_points_list li {
     margin-bottom: 10px; 
     display: flex; 
@@ -256,6 +230,7 @@ header a   {
 .top_points_list i {
     margin-right: 10px;
 }
+/* end section price option */
 
 
 /* team section */
@@ -301,6 +276,7 @@ header a   {
 .team_section_container_content_txt_title   {
     margin-bottom: 40px;   
 }
+/* end team section */
 
 /* section find partner */
 .find_partner   {
@@ -343,6 +319,7 @@ header a   {
 .white_btn a    {
     text-decoration: none;
 }
+/* end section find partner */
 
 /* section dropbox business */
 .dropbox_business   {
@@ -380,6 +357,7 @@ header a   {
     width: 100%;
     height: 200px;
 }
+/* section dropbox business */
 
 /* section number */
 .number {
@@ -399,6 +377,7 @@ header a   {
 .number_container h2    {
     font-size: 50px;
 }
+/* end section number */
 
 /* company section */
 .company   {
@@ -430,7 +409,6 @@ header a   {
 }
 
 .desigit    {
-    /* width: 50%; */
     background-color: rgb(172, 210, 160);
 }
 
@@ -467,6 +445,7 @@ header a   {
     padding: 40px;
     gap: 40px;
 }
+/* end company section */
 
 /* free test section */
 .free_test  {
@@ -483,6 +462,7 @@ header a   {
 .white_btn a    {
     color: black;
 }
+/* end free test section */
 
 /* faq section */
 .faq    {
@@ -512,6 +492,7 @@ header a   {
     display: flex;
     justify-content: space-between;
 }
+/* end faq question */
 
 /* footer */
 .footer {
@@ -557,17 +538,16 @@ header a   {
     align-items: flex-start;
     width: 100%;
     margin-top: 5%;
-    /* debug */
     height: 40px;
-    /* background-color: brown; */
 }
 
-.footer_bottom line {
+.footer .line {
     color: white;
+    margin: 40px 0;
 }
 
 .language   {
     display: flex;
-    margin-top: 1%;
     gap: 1vw;
 }
+/* end footer */
