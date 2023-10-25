@@ -139,10 +139,9 @@ header a   {
     font-size: 50px;
 }
 
-.options    {
+.radius_sec {
     display: flex;
-    width: 100%;
-    gap: 10px;
+    gap: 1vw;
 }
 
 .column_price {
