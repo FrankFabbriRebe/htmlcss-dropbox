@@ -33,6 +33,7 @@ header  {
 }
 
 nav  {
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +59,12 @@ header a   {
     color: white;
     text-decoration: none;
 }
+
+/* hover action */
+nav a:hover {
+    border-bottom: 1px solid blue;
+}
+
 /* end header */
 
 
